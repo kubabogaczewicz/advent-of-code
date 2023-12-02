@@ -1,0 +1,16 @@
+{
+  "name": "@kubabogaczewicz/aoc",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "test": "bun test",
+    "run": "bun run index.ts"
+  }
+}

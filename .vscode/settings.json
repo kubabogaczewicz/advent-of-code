@@ -1,0 +1,17 @@
+{
+  "editor.codeActionsOnSave":{
+    "source.organizeImports.biome": true,
+    "quickfix.biome": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "bun.debugTerminal.enabled": true,
+  "code-runner.executorMap": {
+    "javascript": "bun $fullFileName",
+    "typescript": "bun $fullFileName"
+  }
+}
