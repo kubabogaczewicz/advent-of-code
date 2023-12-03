@@ -12,5 +12,8 @@
   "scripts": {
     "test": "bun test",
     "run": "bun run index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
   }
 }
